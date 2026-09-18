@@ -1,0 +1,10 @@
+{
+  "name": "kirimin-shipment-automation-starter",
+  "nodes": [
+    {"name": "Webhook", "type": "trigger"},
+    {"name": "Validate and Deduplicate", "type": "transform"},
+    {"name": "Persist Ledger", "type": "database"},
+    {"name": "Notify or Create Exception", "type": "branch"}
+  ],
+  "connections": []
+}
